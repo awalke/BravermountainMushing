@@ -1,0 +1,121 @@
+* {
+  border: none;
+  padding: 0;
+  margin: 0;
+  /* overflow: hidden; */
+}
+
+.landing-page {
+  background-image: url("media/mushing2.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dark-box {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,0);
+  -webkit-transition: background-color 2s; /* Safari */
+  transition: background-color 2s;
+}
+
+.title {
+  text-align: center;
+  padding-top: 25vh;
+}
+
+.title h1{
+  color: rgba(0,0,0,0);
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: bold;
+  font-size: 7vw;
+  -webkit-transition: color 2s; /* Safari */
+  transition: color 2s;
+}
+
+.title img {
+  width: 9vw;
+  height: 4vw;
+  margin-top: 45vh;
+  opacity: 0;
+  position: absolute;
+  /* margin-left: -5vw; */
+
+  -webkit-transition: opacity 2s;
+  transition: opacity 2s;
+}
+
+.arrow_container {
+  margin-left: -10vw;
+}
+
+#down_arrow:hover {
+  opacity: 1;
+}
+
+.nav-page {
+  background-color: gray;
+  /* margin: 10px; */
+  overflow: hidden;
+}
+
+.button-bar {
+  width: 100vw;
+  height: 25vh;
+
+  /* border: 1px solid blue; */
+  position: relative;
+  /* margin-bottom: 10px; */
+}
+
+.cover, .img-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.cover {
+  /* background-color: rgba(0,0,0,0.4); */
+  text-align: center;
+  /* border-top: 2px solid rgba(0,0,0,0.1); */
+  border-top: 10px solid white;
+}
+
+.cover h1 {
+  color: white;
+  font-family: Helvetica, Arial;
+  font-weight: lighter;
+  font-size: 4vw;
+  padding-top: 5.5vh;
+}
+
+.img-container {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  -webkit-filter: blur(5px);
+  filter: blur(10px);
+  transform: scale(1.0);
+}
+
+#about-img {
+  background-image: url("media/mini.jpg");
+}
+
+#team-img {
+  background-image: url("media/hari.jpg");
+}
+
+#faq-img {
+  background-image: url("media/baby_clem.jpg");
+}
+
+#twitter-img {
+  background-image: url("media/mushing2.jpg");
+}
