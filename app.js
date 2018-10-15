@@ -28,6 +28,7 @@ $(document).ready(function (){
     });
 
     $("#center").click(function() {
-      window.location.href = "test.html";
+      // window.location.href = "html/meetTheTeam.html";
+      //we should delete this function and just use a tags
     });
 });
