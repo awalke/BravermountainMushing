@@ -8,10 +8,10 @@ a {
   text-decoration: none;
   color: white;
 }
-img {
+/* img {
   height: 9vw;
 
-}
+} */
 #container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -69,12 +69,28 @@ img {
   grid-template-columns: repeat(15, 1fr);
   /* grid-auto-rows: minmax(5vh, auto); */
   font-size: 20px;
+  padding-top: 5vh;
   /* background-color: blue; */
 }
 .bt:hover + .dogThumbnail {
   transform: scale(1.1);
   transition: all .4s ease-in-out;
 }
+
+.bt {
+  background-color: rgba(0,0,0,0);
+  border: none;
+}
+
+.dogThumbnail {
+  padding-top: 10%;
+}
+
+.dogThumbnail img {
+  width: 15vw;
+  height: 15vw;
+}
+
 #flameThumbnail {
   grid-column: 1/4;
   grid-row: 1/3;
@@ -106,7 +122,6 @@ img {
 #jengaButton {
   grid-column: 7/10;
   grid-row: 1/3;
-  /* background-color: rgba(0,0,0,.2); */
 }
 
 #grinchThumbnail {
