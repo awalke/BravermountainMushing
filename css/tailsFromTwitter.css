@@ -12,6 +12,9 @@ img {
   height: 9vw;
 
 }
+p {
+  font-size: 20px;
+}
 #container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -66,7 +69,236 @@ img {
   grid-column: 1/13;
   grid-row: 4/20;
   display: grid;
-  grid-template-columns: repeat(15, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   /* grid-auto-rows: minmax(5vh, auto); */
   font-size: 20px;
+  grid-gap: 10px;
+  /* margin-left: 4vw; */
+  /* margin-right: 4vw; */
+  margin-bottom: 10px;
+}
+
+.tweetBlock {
+  box-shadow: 3px 3px 20px rgba(0,0,0,.15);
+  height: 235px;
+  width: 500px;
+  padding: 10px;
+  /* z-index: 1; */
+}
+.tweetButton {
+  height: 255px;
+  width: 520px;
+  z-index: 1;
+  background-color: rgba(0,0,0,.0);
+}
+.tweetButton:hover {
+  transform: scale(1.01);
+  transition: all .1s ease-in-out;
+}
+.tweetButton:hover + .tweetBlock {
+  transform: scale(1.01);
+  transition: all .1s ease-in-out;
+}
+
+#uglyDogsTweet {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+#uglyDogsButton {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+#chickenFlameTweet {
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+#chickenFlameButton {
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+
+#ateFatTweet {
+  grid-column: 4/5;
+  grid-row: 1/2;
+}
+#ateFatButton {
+  grid-column: 4/5;
+  grid-row: 1/2;
+}
+
+#donutExTweet {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+#donutExButton {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+#outdoorWrTweet {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+#outdoorWrButton {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+
+#loveStoryTweet {
+  grid-column: 4/5;
+  grid-row: 2/3;
+}
+#loveStoryButton {
+  grid-column: 4/5;
+  grid-row: 2/3;
+}
+
+#roundDogsTweet {
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+#roundDogsButton {
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+
+#moreRoundDogsTweet {
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+#moreRoundDogsButton {
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+
+#hariBeesTweet {
+  grid-column: 4/5;
+  grid-row: 3/4;
+}
+#hariBeesButton {
+  grid-column: 4/5;
+  grid-row: 3/4;
+}
+
+#dogsledCampingTweet {
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
+#dogsledCampingButton {
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
+
+#dogsledCampTweet {
+  grid-column: 3/4;
+  grid-row: 4/5;
+}
+#dogsledCampButton {
+  grid-column: 3/4;
+  grid-row: 4/5;
+}
+
+#prayJengaTweet {
+  grid-column: 4/5;
+  grid-row: 4/5;
+}
+#prayJengaButton {
+  grid-column: 4/5;
+  grid-row: 4/5;
+}
+
+#sledDogsTweet {
+  grid-column: 2/3;
+  grid-row: 5/6;
+}
+#sledDogsButton {
+  grid-column: 2/3;
+  grid-row: 5/6;
+}
+
+#kindDogsTweet {
+  grid-column: 3/4;
+  grid-row: 5/6;
+}
+#kindDogsButton {
+  grid-column: 3/4;
+  grid-row: 5/6;
+}
+
+#menAndWomenTweet {
+  grid-column: 4/5;
+  grid-row: 5/6;
+}
+#menAndWomenButton {
+  grid-column: 4/5;
+  grid-row: 5/6;
+}
+
+#meatGrinderTweet {
+  grid-column: 2/3;
+  grid-row: 6/7;
+}
+#meatGrinderButton {
+  grid-column: 2/3;
+  grid-row: 6/7;
+}
+
+
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 500px; /* Could be more or less, depending on screen size */
+    height: 80vh;
+    text-align: center;
+    overflow: auto;
+}
+
+.modal-content img {
+  margin-top: 5%;
+  width: 15vw;
+  height: 15vw;
+}
+
+.modal-content p {
+  margin-top: 5%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button {
+  outline: 0;
 }
