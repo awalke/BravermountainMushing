@@ -85,7 +85,7 @@ a {
 }
 .bt:hover + .dogThumbnail {
   transform: scale(1.1);
-  transition: all .4s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 
 .bt {
@@ -291,7 +291,7 @@ a {
     padding: 20px;
     border: 1px solid #888;
     width: 40vw; /* Could be more or less, depending on screen size */
-    height: 40vw;
+    height: 80vh;
     text-align: center;
 }
 
