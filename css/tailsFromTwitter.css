@@ -79,15 +79,19 @@ p {
 }
 
 .tweetBlock {
-  box-shadow: 3px 3px 20px rgba(0,0,0,.15);
-  height: 235px;
-  width: 500px;
+  box-shadow: 3px 3px 20px rgba(0,0,0,.1);
+  height: 275px;
+  /* width: 500px; */
+  width: 25vw;
+  min-width: 280px;
   padding: 10px;
   /* z-index: 1; */
 }
 .tweetButton {
-  height: 255px;
-  width: 520px;
+  height: 295px;
+  /* width: 520px; */
+  width:26.25vw;
+  min-width: 300px;
   z-index: 1;
   background-color: rgba(0,0,0,.0);
 }
@@ -244,6 +248,257 @@ p {
   grid-row: 6/7;
 }
 
+#puppyCuteTweet {
+  grid-column: 3/4;
+  grid-row: 6/7;
+}
+#puppyCuteButton {
+  grid-column: 3/4;
+  grid-row: 6/7;
+}
+
+#supportTeamTweet {
+  grid-column: 4/5;
+  grid-row: 6/7;
+}
+#supportTeamButton {
+  grid-column: 4/5;
+  grid-row: 6/7;
+}
+
+#teamAxeTweet {
+  grid-column: 2/3;
+  grid-row: 7/8;
+}
+#teamAxeButton {
+  grid-column: 2/3;
+  grid-row: 7/8;
+}
+
+#grinchSouthTweet {
+  grid-column: 3/4;
+  grid-row: 7/8;
+}
+#grinchSouthButton {
+  grid-column: 3/4;
+  grid-row: 7/8;
+}
+
+#gloryWestTweet {
+  grid-column: 4/5;
+  grid-row: 7/8;
+}
+#gloryWestButton {
+  grid-column: 4/5;
+  grid-row: 7/8;
+}
+
+#sdsiFieldTweet {
+  grid-column: 2/3;
+  grid-row: 8/9;
+}
+#sdsiFieldButton {
+  grid-column: 2/3;
+  grid-row: 8/9;
+}
+
+#drylandOneTweet {
+  grid-column: 3/4;
+  grid-row: 8/9;
+}
+#drylandOneButton {
+  grid-column: 3/4;
+  grid-row: 8/9;
+}
+
+#weegeeThiefTweet {
+  grid-column: 4/5;
+  grid-row: 8/9;
+}
+#weegeeThiefButton {
+  grid-column: 4/5;
+  grid-row: 8/9;
+}
+
+#booLedTweet {
+  grid-column: 2/3;
+  grid-row: 9/10;
+}
+#booLedButton {
+  grid-column: 2/3;
+  grid-row: 9/10;
+}
+
+#happyClemTweet {
+  grid-column: 3/4;
+  grid-row: 9/10;
+}
+#happyClemButton {
+  grid-column: 3/4;
+  grid-row: 9/10;
+}
+
+#winterRecsTweet {
+  grid-column: 4/5;
+  grid-row: 9/10;
+}
+#winterRecsButton {
+  grid-column: 4/5;
+  grid-row: 9/10;
+}
+
+#vetRecsTweet {
+  grid-column: 2/3;
+  grid-row: 10/11;
+}
+#vetRecsButton {
+  grid-column: 2/3;
+  grid-row: 10/11;
+}
+
+#hariLossTweet {
+  grid-column: 3/4;
+  grid-row: 10/11;
+}
+#hariLossButton {
+  grid-column: 3/4;
+  grid-row: 10/11;
+}
+
+#bestPieTweet {
+  grid-column: 4/5;
+  grid-row: 10/11;
+}
+#bestPieButton {
+  grid-column: 4/5;
+  grid-row: 10/11;
+}
+
+#qCribTweet {
+  grid-column: 2/3;
+  grid-row: 11/12;
+}
+#qCribButton {
+  grid-column: 2/3;
+  grid-row: 11/12;
+}
+
+#iditarodPlanningTweet {
+  grid-column: 3/4;
+  grid-row: 11/12;
+}
+#iditarodPlanningButton {
+  grid-column: 3/4;
+  grid-row: 11/12;
+}
+
+#sledDogCareTweet {
+  grid-column: 4/5;
+  grid-row: 11/12;
+}
+#sledDogCareButton {
+  grid-column: 4/5;
+  grid-row: 11/12;
+}
+
+#vaxDayTweet {
+  grid-column: 2/3;
+  grid-row: 12/13;
+}
+#vaxDayButton {
+  grid-column: 2/3;
+  grid-row: 12/13;
+}
+
+#fryBreakTweet {
+  grid-column: 3/4;
+  grid-row: 12/13;
+}
+#fryBreakButton {
+  grid-column: 3/4;
+  grid-row: 12/13;
+}
+
+#fanArtTweet {
+  grid-column: 4/5;
+  grid-row: 12/13;
+}
+#fanArtButton {
+  grid-column: 4/5;
+  grid-row: 12/13;
+}
+
+#dogSpeedsTweet {
+  grid-column: 2/3;
+  grid-row: 13/14;
+}
+#dogSpeedsButton {
+  grid-column: 2/3;
+  grid-row: 13/14;
+}
+
+#pupQuizTweet {
+  grid-column: 3/4;
+  grid-row: 13/14;
+}
+#pupQuizButton {
+  grid-column: 3/4;
+  grid-row: 13/14;
+}
+
+#gloryDnaTweet {
+  grid-column: 4/5;
+  grid-row: 13/14;
+}
+#gloryDnaButton {
+  grid-column: 4/5;
+  grid-row: 13/14;
+}
+
+#menAllyTweet {
+  grid-column: 2/3;
+  grid-row: 14/15;
+}
+#menAllyButton {
+  grid-column: 2/3;
+  grid-row: 14/15;
+}
+
+#sledTechTweet {
+  grid-column: 3/4;
+  grid-row: 14/15;
+}
+#sledTechButton {
+  grid-column: 3/4;
+  grid-row: 14/15;
+}
+
+#sdsiTweet {
+  grid-column: 4/5;
+  grid-row: 14/15;
+}
+#sdsiButton {
+  grid-column: 4/5;
+  grid-row: 14/15;
+}
+
+#beaverMittensTweet {
+  grid-column: 2/3;
+  grid-row: 15/16;
+}
+#beaverMittensButton {
+  grid-column: 2/3;
+  grid-row: 15/16;
+}
+
+#accessHelpTweet {
+  grid-column: 3/4;
+  grid-row: 15/16;
+}
+#accessHelpButton {
+  grid-column: 3/4;
+  grid-row: 15/16;
+}
 
 
 
