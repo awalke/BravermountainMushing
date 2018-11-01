@@ -52,6 +52,31 @@ $(document).ready(function (){
   var sdsiModal = document.getElementById('sdsiModal');
   var beaverMittensModal = document.getElementById('beaverMittensModal');
   var accessHelpModal = document.getElementById('accessHelpModal');
+  var eveningDogsModal = document.getElementById('eveningDogsModal');
+  var blowholeLegendModal = document.getElementById('blowholeLegendModal');
+  var dogFieldTripModal = document.getElementById('dogFieldTripModal');
+  var puppyNamesModal = document.getElementById('puppyNamesModal');
+  var lostPupModal = document.getElementById('lostPupModal');
+  var fourWheelerModal = document.getElementById('fourWheelerModal');
+  var seraShoesModal = document.getElementById('seraShoesModal');
+  var colbertHeightsModal = document.getElementById('colbertHeightsModal');
+  var gloryMailModal = document.getElementById('gloryMailModal');
+  var jailbreakModal = document.getElementById('jailbreakModal');
+  var tbtBlobsModal = document.getElementById('tbtBlobsModal');
+  var farmWalkModal = document.getElementById('farmWalkModal');
+  var newDogsModal = document.getElementById('newDogsModal');
+  var blobTornadoModal = document.getElementById('blobTornadoModal');
+  var blobFriendsModal = document.getElementById('blobFriendsModal');
+  var maxiMiniModal = document.getElementById('maxiMiniModal');
+  var encouragementModal = document.getElementById('encouragementModal');
+  var dockHuntModal = document.getElementById('dockHuntModal');
+  var blobExploreModal = document.getElementById('blobExploreModal');
+  var newCartModal = document.getElementById('newCartModal');
+  var kobukModal = document.getElementById('kobukModal');
+  var hariSavesModal = document.getElementById('hariSavesModal');
+  var boudicaModal = document.getElementById('boudicaModal');
+  var snapsCrisisModal = document.getElementById('snapsCrisisModal');
+  var sledRunModal = document.getElementById('sledRunModal');
 
 
 
@@ -100,6 +125,31 @@ $(document).ready(function (){
   var sdsiBtn = document.getElementById("sdsiButton");
   var beaverMittensBtn = document.getElementById("beaverMittensButton");
   var accessHelpBtn = document.getElementById("accessHelpButton");
+  var eveningDogsBtn = document.getElementById("eveningDogsButton");
+  var blowholeLegendBtn = document.getElementById("blowholeLegendButton");
+  var dogFieldTripBtn = document.getElementById("dogFieldTripButton");
+  var puppyNamesBtn = document.getElementById("puppyNamesButton");
+  var lostPupBtn = document.getElementById("lostPupButton");
+  var fourWheelerBtn = document.getElementById("fourWheelerButton");
+  var seraShoesBtn = document.getElementById("seraShoesButton");
+  var colbertHeightsBtn = document.getElementById("colbertHeightsButton");
+  var gloryMailBtn = document.getElementById("gloryMailButton");
+  var jailbreakBtn = document.getElementById("jailbreakButton");
+  var tbtBlobsBtn = document.getElementById("tbtBlobsButton");
+  var farmWalkBtn = document.getElementById("farmWalkButton");
+  var newDogsBtn = document.getElementById("newDogsButton");
+  var blobTornadoBtn = document.getElementById("blobTornadoButton");
+  var blobFriendsBtn = document.getElementById("blobFriendsButton");
+  var maxiMiniBtn = document.getElementById("maxiMiniButton");
+  var encouragementBtn = document.getElementById("encouragementButton");
+  var dockHuntBtn = document.getElementById("dockHuntButton");
+  var blobExploreBtn = document.getElementById("blobExploreButton");
+  var newCartBtn = document.getElementById("newCartButton");
+  var kobukBtn = document.getElementById("kobukButton");
+  var hariSavesBtn = document.getElementById("hariSavesButton");
+  var boudicaBtn = document.getElementById("boudicaButton");
+  var snapsCrisisBtn = document.getElementById("snapsCrisisButton");
+  var sledRunBtn = document.getElementById("sledRunButton");
 
 
 
@@ -280,6 +330,106 @@ $(document).ready(function (){
       accessHelpModal.style.display = "block";
       addTwitterThreadContent(y=43);
   }
+  eveningDogsBtn.onclick = function() {
+      eveningDogsModal.style.display = "block";
+      addTwitterThreadContent(y=44);
+  }
+  blowholeLegendBtn.onclick = function() {
+      blowholeLegendModal.style.display = "block";
+      addTwitterThreadContent(y=45);
+  }
+  dogFieldTripBtn.onclick = function() {
+      dogFieldTripModal.style.display = "block";
+      addTwitterThreadContent(y=46);
+  }
+  puppyNamesBtn.onclick = function() {
+      puppyNamesModal.style.display = "block";
+      addTwitterThreadContent(y=47);
+  }
+  lostPupBtn.onclick = function() {
+      lostPupModal.style.display = "block";
+      addTwitterThreadContent(y=48);
+  }
+  fourWheelerBtn.onclick = function() {
+      fourWheelerModal.style.display = "block";
+      addTwitterThreadContent(y=49);
+  }
+  seraShoesBtn.onclick = function() {
+      seraShoesModal.style.display = "block";
+      addTwitterThreadContent(y=50);
+  }
+  colbertHeightsBtn.onclick = function() {
+      colbertHeightsModal.style.display = "block";
+      addTwitterThreadContent(y=51);
+  }
+  gloryMailBtn.onclick = function() {
+      gloryMailModal.style.display = "block";
+      addTwitterThreadContent(y=52);
+  }
+  jailbreakBtn.onclick = function() {
+      jailbreakModal.style.display = "block";
+      addTwitterThreadContent(y=53);
+  }
+  tbtBlobsBtn.onclick = function() {
+      tbtBlobsModal.style.display = "block";
+      addTwitterThreadContent(y=54);
+  }
+  farmWalkBtn.onclick = function() {
+      farmWalkModal.style.display = "block";
+      addTwitterThreadContent(y=55);
+  }
+  newDogsBtn.onclick = function() {
+      newDogsModal.style.display = "block";
+      addTwitterThreadContent(y=56);
+  }
+  blobTornadoBtn.onclick = function() {
+      blobTornadoModal.style.display = "block";
+      addTwitterThreadContent(y=57);
+  }
+  blobFriendsBtn.onclick = function() {
+      blobFriendsModal.style.display = "block";
+      addTwitterThreadContent(y=58);
+  }
+  maxiMiniBtn.onclick = function() {
+      maxiMiniModal.style.display = "block";
+      addTwitterThreadContent(y=59);
+  }
+  encouragementBtn.onclick = function() {
+      encouragementModal.style.display = "block";
+      addTwitterThreadContent(y=60);
+  }
+  dockHuntBtn.onclick = function() {
+      dockHuntModal.style.display = "block";
+      addTwitterThreadContent(y=61);
+  }
+  blobExploreBtn.onclick = function() {
+      blobExploreModal.style.display = "block";
+      addTwitterThreadContent(y=62);
+  }
+  newCartBtn.onclick = function() {
+      newCartModal.style.display = "block";
+      addTwitterThreadContent(y=63);
+  }
+  kobukBtn.onclick = function() {
+      kobukModal.style.display = "block";
+      addTwitterThreadContent(y=64);
+  }
+  hariSavesBtn.onclick = function() {
+      hariSavesModal.style.display = "block";
+      addTwitterThreadContent(y=65);
+  }
+  boudicaBtn.onclick = function() {
+      boudicaModal.style.display = "block";
+      addTwitterThreadContent(y=66);
+  }
+  snapsCrisisBtn.onclick = function() {
+      snapsCrisisModal.style.display = "block";
+      addTwitterThreadContent(y=67);
+  }
+  sledRunBtn.onclick = function() {
+      sledRunModal.style.display = "block";
+      addTwitterThreadContent(y=68);
+  }
 
   // When the user clicks anywhere outside of the modal, close it
   window.onclick = function(event) {
@@ -415,6 +565,81 @@ $(document).ready(function (){
       } else if (event.target == accessHelpModal) {
         accessHelpModal.style.display = "none";
         $("#accessHelpModalContent").empty();
+      } else if (event.target == eveningDogsModal) {
+        eveningDogsModal.style.display = "none";
+        $("#eveningDogsModalContent").empty();
+      } else if (event.target == blowholeLegendModal) {
+        blowholeLegendModal.style.display = "none";
+        $("#blowholeLegendModalContent").empty();
+      } else if (event.target == dogFieldTripModal) {
+        dogFieldTripModal.style.display = "none";
+        $("#dogFieldTripModalContent").empty();
+      } else if (event.target == puppyNamesModal) {
+        puppyNamesModal.style.display = "none";
+        $("#puppyNamesModalContent").empty();
+      } else if (event.target == lostPupModal) {
+        lostPupModal.style.display = "none";
+        $("#lostPupModalContent").empty();
+      } else if (event.target == fourWheelerModal) {
+        fourWheelerModal.style.display = "none";
+        $("#fourWheelerModalContent").empty();
+      } else if (event.target == seraShoesModal) {
+        seraShoesModal.style.display = "none";
+        $("#seraShoesModalContent").empty();
+      } else if (event.target == colbertHeightsModal) {
+        colbertHeightsModal.style.display = "none";
+        $("#colbertHeightsModalContent").empty();
+      } else if (event.target == gloryMailModal) {
+        gloryMailModal.style.display = "none";
+        $("#gloryMailModalContent").empty();
+      } else if (event.target == jailbreakModal) {
+        jailbreakModal.style.display = "none";
+        $("#jailbreakModalContent").empty();
+      } else if (event.target == tbtBlobsModal) {
+        tbtBlobsModal.style.display = "none";
+        $("#tbtBlobsModalContent").empty();
+      } else if (event.target == farmWalkModal) {
+        farmWalkModal.style.display = "none";
+        $("#farmWalkModalContent").empty();
+      } else if (event.target == newDogsModal) {
+        newDogsModal.style.display = "none";
+        $("#newDogsModalContent").empty();
+      } else if (event.target == blobTornadoModal) {
+        blobTornadoModal.style.display = "none";
+        $("#blobTornadoModalContent").empty();
+      } else if (event.target == blobFriendsModal) {
+        blobFriendsModal.style.display = "none";
+        $("#blobFriendsModalContent").empty();
+      } else if (event.target == maxiMiniModal) {
+        maxiMiniModal.style.display = "none";
+        $("#maxiMiniModalContent").empty();
+      } else if (event.target == encouragementModal) {
+        encouragementModal.style.display = "none";
+        $("#encouragementModalContent").empty();
+      } else if (event.target == dockHuntModal) {
+        dockHuntModal.style.display = "none";
+        $("#dockHuntModalContent").empty();
+      } else if (event.target == blobExploreModal) {
+        blobExploreModal.style.display = "none";
+        $("#blobExploreModalContent").empty();
+      } else if (event.target == newCartModal) {
+        newCartModal.style.display = "none";
+        $("#newCartModalContent").empty();
+      } else if (event.target == kobukModal) {
+        kobukModal.style.display = "none";
+        $("#kobukModalContent").empty();
+      } else if (event.target == hariSavesModal) {
+        hariSavesModal.style.display = "none";
+        $("#hariSavesModalContent").empty();
+      } else if (event.target == boudicaModal) {
+        boudicaModal.style.display = "none";
+        $("#boudicaModalContent").empty();
+      } else if (event.target == snapsCrisisModal) {
+        snapsCrisisModal.style.display = "none";
+        $("#snapsCrisisModalContent").empty();
+      } else if (event.target == sledRunModal) {
+        sledRunModal.style.display = "none";
+        $("#sledRunModalContent").empty();
       }
   }
 });
@@ -490,13 +715,58 @@ var sdsi = ['1042913807084007424', '1042915932744626177', '1042917328181190657',
 '1042950870437113857', '1042953694009012224', '1042954133085593602', '1042955960011112448', '1042956394327093248', '1042957418983051265'];
 var beaverMittens = ['1041417709177716737', '1041418182643396609', '1041420431146864640', '1041424019977904128'];
 var accessHelp = ['1041358097787363328', '1041363821099659264', '1041364551294484480', '1041500730924969984'];
+var eveningDogs = ['1040739094232489985', '1040739744534159360', '1040740816128487424', '1040742391957872645', '1040742899909054465', '1040744365935734789', '1040746347278815232', '1040746685255823365', '1040747981975302145', '1040750612881858560', '1040751383807504385', '1040752403715379205', '1040754681365098497', '1040757030615764995'];
+var blowholeLegend = ['1039610784396075009', '1039611161182982145', '1039611545733537792', '1039612664924831749'];
+var dogFieldTrip = ['1039583526964932611', '1039584032189763585', '1039584419244388352', '1039585510669332481', '1039586077319880704', '1039586802116583425'];
+var puppyNames = ['1030190845100781568', '1030191117717917696', '1030191452037496833', '1030194999483355138', '1030195155851206656', '1030195434608844800', '1030195687907123201', '1030196274186862592', '1030196539841564672', '1030196717046693888', '1030197119032991745', '1030198117319278594', '1030198624171565062', '1030201796495638528'];
+var lostPup = ['1030079215545344000', '1030080021011079169', '1030080496120807424', '1030080963471192065', '1030081089707143168', '1030081298055000065', '1030081550245933056'];
+var fourWheeler = ['1028389998666625024', '1028391855577354246', '1028392910281232385', '1028393798932615170', '1028394274906365952', '1028395035228876803', '1028396230869753856', '1028396851790327810', '1028397575194464257', '1028398155367440385', '1028398693186195457', '1028399554343972864', '1028400666685911042'];
+var seraShoes = ['1026616490970234880', '1026617347824594944', '1026617721465786368', '1026618147640623106', '1026618400406228998', '1026618815474479105']
+var colbertHeights = ['1026267540274794496', '1026272318421655552', '1026272675633799168', '1026273423750778880', '1026274085284835328', '1026274391733272576', '1026275413226647552', '1026275857030164480', '1026276182592036866', '1026276629730021377', '1026277321899167745', '1026277515189530625', '1026277800985223168', '1026278037158027265', '1026278500678950917', '1026279019841548288', '1026279432317755392', '1026280081566707712', '1026280582609862656',
+'1026280891176443905', '1026281963206918144', '1026283457817833472'];
+var gloryMail = ['1022600022364434437', '1022600426112397313', '1022601571530625025', '1022602509087596544', '1022603897532280832', '1022604604343771141', '1022605382018064384', '1022606015202816000', '1022606435207860224', '1022607417916444673', '1022608277086060544', '1022609083524939776', '1022609710455906305', '1022610187763499010', '1022611123500138496', '1022612135841595394', '1022612726290542593'];
+var jailbreak = ['1022245990160650240', '1022246948487798784', '1022247198552154112', '1022248225544331264', '1022248507263082497', '1022249249344507905', '1022249570737315847', '1022249755462787072', '1022249799154892800', '1022250018600824832', '1022250066646638592', '1022250539885711360', '1022250905041809408', '1022251452935426049', '1022252192202477568', '1022252743434620930', '1022253192023887872', '1022253935506141184', '1022254356899483648',
+'1022254633555820550', '1022255125266685952', '1022255295538581505', '1022255627425513472', '1022256188849905664', '1022257239816581122', '1022257482138361857', '1022257774137421824', '1022258417883377665', '1022258923120812032', '1022259529898254337'];
+var tbtBlobs = ['1021065925838163968', '1021066209230446592', '1021066405091799040', '1021066576869511168', '1021066773553037314', '1021067103456047104', '1021067290714898432', '1021067502992863237', '1021068141974056961'];
+var farmWalk = ['1017229680770985986', '1017230736963915776', '1017231372866465793', '1017231611958525952', '1017232024984260609', '1017232112792096768', '1017233301407457280', '1017233821056557056', '1017234209423970304', '1017234457131134976', '1017235047676596225', '1017235498752978946', '1017235900638605312', '1017236221330907136', '1017236724731215872', '1017237150851530753'];
+var newDogs = ['1016509274825125888', '1016510442125058055', '1016511416407396352', '1016512396540686336', '1016512837160767489', '1016514088984350723', '1016514428458725377', '1016514917644500992', '1016515917986099200', '1016516706532036608', '1016517116709736448', '1016517991616471040', '1016519130281906176', '1016520016047591424', '1016520309560762368', '1016521647145279489', '1016523165353283586', '1016523573652066304', '1016525158411055104',
+'1016526238909952002'];
+var blobTornado = ['1015049038092046336', '1015049670198951936', '1015050224228814851', '1015050710000553985', '1015051851648131072', '1015052550029135873', '1015054562741407749', '1015054826789621760', '1015054990321356801', '1015055193220710402', '1015055408061349889', '1015056290043891712', '1015056873773559808', '1015057651619762179', '1015058279981035520', '1015058662245715968', '1015059187062267904', '1015059624440057856', '1015060049281077250',
+'1015060460645834757', '1015060710064295936', '1015061344507318273', '1015061889020284928', '1015062215257403392', '1015062461597343744', '1015063049709989888', '1015063845109424128', '1015064336841232384', '1015064759459373056', '1015065103929049089', '1015065542863085568', '1015066239192924161', '1015067078351564800', '1015067590748725249', '1015068263707967488', '1015069054107873283', '1015069492706267136', '1015070217800683522', '1015070962365140993',
+'1015071609051385858', '1015072351325704193', '1015072537758392320'];
+var blobFriends = ['1012074648991920128', '1012083563695693824', '1012086988709777414', '1012088361966764032', '1012092474209263616', '1012098530134110208', '1012099488633315330', '1012106391304187904'];
+var maxiMini = ['1011424398207832064', '1011425152423383040', '1011425674500898821', '1011425889425547265', '1011426542151401472', '1011427219955224577', '1011428435737145344', '1011429012319678464', '1011430155808575499', '1011431273599037442', '1011431689774682112', '1011433044887121920', '1011434661619425281', '1011435335451054080', '1011435857755234304', '1011436606333571072', '1011437580540366848', '1011439112392495105', '1011439975357976576',
+'1011440656529657857', '1011441742799876096', '1011443312648126465', '1011445227373125633', '1011445864366313472', '1011446362016280576', '1011446718129410049', '1011447263753916417', '1011447873333006336', '1011448490466136064', '1011449078851489792', '1011449818756079616', '1011450441878601729', '1011451002627686401'];
+var encouragement = ['1009598007229198336', '1009598355096375297', '1009598705660461056', '1009598937064452096', '1009599232049926145', '1009599613135880193', '1009599943437365248', '1009600241039966208', '1009601140089065472', '1009601356867538944', '1009601750758805505', '1009602429887893505', '1009602899788345345', '1009603310389747712', '1009603875899346951', '1009604401194065921', '1009604647730974725', '1009604868028420097', '1009606055909842946',
+'1009609125297344512'];
+var dockHunt = ['1005604447970627585', '1005604586718195712', '1005604815727157248', '1005605026331426816', '1005605731331125248', '1005606165391212544', '1005612995173666817', '1005614695078924288', '1005615523013554176', '1005619112763150341', '1005626874914050049', '1005627068275744770', '1005627544215937024', '1005628365557166080', '1005632883732746246', '1005634537186045953', '1005634969610473472', '1005635328609325056', '1005642577494859776',
+'1005643281055801351', '1005643528742023170', '1005645018110062598', '1005645617400557568', '1005646934764290048', '1005656933586624512', '1005657325405863937', '1005657630264692736', '1005657791766384640', '1005658026362179591', '1005658806079107073', '1005659212200935424', '1005660866174431234'];
+var blobExplore = ['1004788170213527553', '1004788407158132736', '1004788651941924867', '1004789079018475520', '1004789559656419328', '1004789936875343874', '1004790202156634112', '1004791541548879872', '1004792461565325312', '1004793225247363072', '1004793812965822464'];
+var newCart = ['1003004162446110720', '1003004704350195712', '1003005118432858112', '1003005711096385536', '1003006569511096320', '1003007335500009473', '1003007591579095040', '1003008180383879170', '1003009025611583489', '1003009351152480256', '1003010291439947776', '1003011176962363392', '1003011904938348545', '1003012290592034816', '1003013443094548480', '1003017184015212544', '1003017764624326656', '1003018256372903938', '1003019243871506433',
+'1003019845158559746', '1003020385510621184', '1003020537608753153', '1003021118373027840', '1003021394312122368', '1003021736298852352', '1003022979704516609', '1003023931698307073'];
+var kobuk = ['987716844340555777', '987717481228853253', '987718217790521345', '987718664811147264', '987719350441439232', '987719456364351493', '987720011606306816', '987720317496954881', '987720713829343238', '987721768273174528', '987722473197142020', '987723002589655040', '987723484427182080', '987724639349690369', '987725072369700865', '987725826794848256', '987726242408431617', '987726760778387456', '987727300212019201',
+'987727629758402562', '987728222036135938', '987728556125024257', '987728789701525505', '987728976876535808', '987729232464941057', '987729671088410624', '987730372048891905', '987730496540028928', '987731022904266752', '987731776763252736', '987732600885260288', '987783936364433408', '987784370768490497', '987785131996917762', '987785553591627777', '987786255449673730', '987787029831409664', '987788676657795074', '987789470819848192',
+'987789762214940675', '987790705891467265', '987792986804191233', '987793977788297217', '987794575229112330', '987794861930762242', '987795257277538304', '987795819335176192', '987798555162284032', '987798650893033474', '987799199818375169', '987800575822753797', '988518609797316608', '988519175210455040', '988519868952539136', '988520602750222336', '988521504223592449', '988522234200244225', '988522893855277056', '988523335037300736',
+'988523436568862721', '988523602436800512', '988524402680545280', '988524835193028614', '988525042597220352', '988525385880027137', '988525648963489793', '988525867016978432', '988526276611747840', '988526681622175744', '988527169319010304', '988527427348348928', '988528067625734144', '988528551207911425', '988531225303248896', '988531367351758848', '988531681005977600', '988531867870576640', '988532018496483328', '988532451872948224',
+'988532748339040256', '988533238497918977', '988533701167300608', '988534159743246336', '988534895503798272', '988535306524573696', '988535445729374208', '988535875184115712', '988538221591056385', '988538545890471936', '988538974527352833', '988539213032271873', '988539380632506368', '988540139726032902', '988540373034196993', '988540718711848960', '988541242165231616', '988542097576751105', '988543116155080705'];
+hariSaves =['959900602288558080', '959902048379637761', '959902643878539266', '959902914834780160', '959903237842374657', '959903655276277762', '959904440127049730', '959904907531833349', '959905327197163526', '959905674510598148', '959905989767106564', '959906711258779658', '959907206849277956', '959907708316024833', '959907756403773448', '959908372421234688', '959909022135672832', '959909087722049536', '959909329133555712',
+'959909518229504000', '959909770613477376', '959909834618490880', '959910086557790208', '959910219651444738', '959910785135898624', '959911060605145090', '959911178003771392', '959911483005075457', '959911829551054851', '959912316564328449', '959912902382759936', '959913138551443456', '959913317383864320', '959913649707126791', '959913944830939139', '959914050485477377', '959914682911019010', '959915049270865920', '959915368558071808',
+'959915633361158144', '959916148111429632', '959916460511563778', '959917423796375553', '959918257208774656'];
+var boudica = ['955506672142831617', '955507266744147969', '955507786875535361', '955508425315758080', '955509111973703680', '955509485140938752', '955510056912646146', '955510709416316929', '955511322019590147', '955511634566569984', '955512182556561408', '955512712682975237', '955513158894063620', '955513666408984576', '955514425255038977', '955514978601234432', '955515071110828033', '955515535474810881', '955516114833936385',
+'955516653785186305', '955516971507994625', '955517755268231169', '955518365694660608', '955519164428537856', '955519741333995520', '955520611312336897', '955521044995035141', '955521727550885889', '955522168330256384', '955522489542692864', '955523012438253568', '955523922635698176', '955524475843432455', '955524640444702721', '955525081270243328', '955525371813916672', '955525794842992640', '955526197563314176', '955526691048361985',
+'955528240310947841', '955529744229044226', '955531080399925249', '955531304849870848'];
+var snapsCrisis = ['953395891389583360', '953396062567399427', '953396435734626304', '953396710373560320', '953397297274085376', '953397460126371842', '953397650602299392', '953397808232583168', '953397855355658245', '953398562095812609', '953399152867774464', '953399704632557569', '953399915958423553', '953412022338818048', '953431051325583360', '953431382428127232', '953432401987981323', '953433113903947776', '953433757763108864',
+'953434339861200896', '953435764397871104', '953436130061451270', '953436458005794816', '953436554437029889', '953437195284697089', '953437985701355520', '953438487075807232', '953439393762742274'];
+var sledRun = ['942504392804257793', '942505245468450816', '942505506144432129', '942505727968636928', '942506001110093825', '942509858863177731', '942512426377007104', '942513851068768256', '942514302929469440', '942514533658218496', '942515025704620034', '942515339610525697', '942516176160247808', '942517773875470337', '942518240625950721', '942518355369627649', '942519266338918400'];
 
 var listOfthreadIds = [uglyDogs, chickenFlame, ateFat, donutEx, outdoorWr, loveStory, roundDogs, moreRoundDogs, hariBees, dogsledCamping, dogsledCamp, prayJenga, sledDogs, kindDogs, menAndWomen, meatGrinder, puppyCute, supportTeam, teamAxe,
   grinchSouth, gloryWest, sdsiField, drylandOne, weegeeThief, booLed, happyClem, winterRecs, vetRecs, hariLoss, bestPie, qCrib, iditarodPlanning, sledDogCare, vaxDay, fryBreak, fanArt, dogSpeeds, pupQuiz, gloryDna,
-  menAlly, sledTech, sdsi, beaverMittens, accessHelp];
+  menAlly, sledTech, sdsi, beaverMittens, accessHelp, eveningDogs, blowholeLegend, dogFieldTrip, puppyNames, lostPup, fourWheeler, seraShoes, colbertHeights, gloryMail, jailbreak, tbtBlobs, farmWalk, newDogs, blobTornado, blobFriends,
+  maxiMini, encouragement, dockHunt, blobExplore, newCart, kobuk, hariSaves, boudica, snapsCrisis, sledRun];
 var listOfthreadNames = ['uglyDogs', 'chickenFlame', 'ateFat', 'donutEx', 'outdoorWr', 'loveStory', 'roundDogs', 'moreRoundDogs', 'hariBees', 'dogsledCamping', 'dogsledCamp', 'prayJenga', 'sledDogs', 'kindDogs', 'menAndWomen', 'meatGrinder', 'puppyCute', 'supportTeam', 'teamAxe',
 'grinchSouth', 'gloryWest', 'sdsiField', 'drylandOne', 'weegeeThief', 'booLed', 'happyClem', 'winterRecs', 'vetRecs', 'hariLoss', 'bestPie', 'qCrib', 'iditarodPlanning', 'sledDogCare', 'vaxDay', 'fryBreak', 'fanArt', 'dogSpeeds', 'pupQuiz', 'gloryDna',
-'menAlly', 'sledTech', 'sdsi', 'beaverMittens', 'accessHelp'];
+'menAlly', 'sledTech', 'sdsi', 'beaverMittens', 'accessHelp', 'eveningDogs', 'blowholeLegend', 'dogFieldTrip', 'puppyNames', 'lostPup', 'fourWheeler', 'seraShoes', 'colbertHeights', 'gloryMail', 'jailbreak', 'tbtBlobs', 'farmWalk', 'newDogs', 'blobTornado', 'blobFriends',
+'maxiMini', 'encouragement', 'dockHunt', 'blobExplore', 'newCart', 'kobuk', 'hariSaves', 'boudica', 'snapsCrisis', 'sledRun'];
 
 function addTwitterThreadContent() {
   var threadIds = listOfthreadIds[y];

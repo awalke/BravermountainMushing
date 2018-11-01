@@ -49,16 +49,16 @@ a {
   grid-row: 2/3;
   text-align: center;
 }
-#faqButton {
+#tailsfromTwitterButton {
   grid-column: 10/11;
   grid-row: 2/3;
   text-align: center;
+  padding-top: 0vh;
 }
-#tailsfromTwitterButton {
+#faqButton {
   grid-column: 11/12;
   grid-row: 2/3;
   text-align: center;
-  padding-top: 0vh;
 }
 #patreonButton {
   grid-column: 12/13;
