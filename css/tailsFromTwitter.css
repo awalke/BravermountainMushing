@@ -79,12 +79,22 @@ blockquote {
   grid-column: 1/13;
   grid-row: 4/20;
   display: grid;
+  /* grid-template-columns: repeat(auto-fit, 520px);
+  grid-auto-rows: repeat(auto-fill, minmax(300px, auto)); */
   grid-template-columns: repeat(auto-fit, 520px);
+  grid-auto-rows: 300px;
   font-size: 20px;
   grid-gap: 10px;
   margin-bottom: 20px;
   justify-content: center;
+  height: 100vh;
+  grid-auto-flow: dense;
 }
+
+/* #mainText div:nth-child(2) {
+  grid-column: 3;
+  grid-row: 2 / 4;
+} */
 
 .tweetBlock {
   box-shadow: 3px 3px 20px rgba(0,0,0,.1);
@@ -94,6 +104,15 @@ blockquote {
   padding: 10px;
   z-index: 0;
 }
+
+.largeBlock {
+  height: 585px;
+}
+
+.largeTweet {
+  grid-row-end: span 2;
+}
+
 .tweetButton {
   height: 295px;
   width: 520px;
@@ -101,6 +120,11 @@ blockquote {
   z-index: 1;
   background-color: rgba(0,0,0,.0);
 }
+
+.largeButton {
+  height: 605px;
+}
+
 .tweetButton:hover {
   transform: scale(1.01);
   transition: all .1s ease-in-out;
