@@ -146,18 +146,23 @@ blockquote {
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    text-align: center;
 }
 
 /* Modal Content/Box */
 .modal-content {
     background-color: #fefefe;
-    margin: 5% auto; /* 15% from the top and centered */
-    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    padding: 0px 20px 0px 20px;
     border: 1px solid #888;
     width: 500px; /* Could be more or less, depending on screen size */
     height: 80vh;
     text-align: center;
     overflow: auto;
+    border-width: 40px 0px 40px 0px;
+    border-color: white;
 }
 
 .modal-content img {
@@ -167,7 +172,7 @@ blockquote {
 }
 
 .modal-content p {
-  margin-top: 5%;
+  /* margin-top: 20px; */
 }
 
 /* The Close Button */
