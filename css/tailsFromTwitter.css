@@ -103,9 +103,15 @@ blockquote {
 .largeBlock {
   height: 585px;
 }
+.extraLargeBlock {
+  height: 895px;
+}
 
 .largeTweet {
   grid-row-end: span 2;
+}
+.extraLargeTweet {
+  grid-row-end: span 3;
 }
 
 .tweetButton {
@@ -118,6 +124,9 @@ blockquote {
 
 .largeButton {
   height: 605px;
+}
+.extraLargeButton {
+  height: 915px;
 }
 
 .tweetButton:hover {
@@ -147,6 +156,7 @@ blockquote {
 /* Modal Content/Box */
 .modal-content {
     background-color: #fefefe;
+    font-size: 25px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5vh;
