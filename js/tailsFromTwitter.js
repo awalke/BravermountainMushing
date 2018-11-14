@@ -156,6 +156,7 @@ $(document).ready(function (){
   // When the user clicks on the button, open the modal
   uglyDogsBtn.onclick = function() {
       uglyDogsModal.style.display = "block";
+      // document.getElementById('uglyDogsModalContent').innerHTML = 'Go back to your ugly dogs karen';
       addTwitterThreadContent(y=0);
   }
   chickenFlameBtn.onclick = function() {
@@ -436,6 +437,7 @@ $(document).ready(function (){
       if (event.target == uglyDogsModal) {
           uglyDogsModal.style.display = "none";
           $("#uglyDogsModalContent").empty();
+          // $("#uglyDogsModalContent *:not('.modalTitle')").empty();
       } else if (event.target == chickenFlameModal) {
         chickenFlameModal.style.display = "none";
         $("#chickenFlameModalContent").empty();
@@ -771,6 +773,7 @@ var listOfthreadNames = ['uglyDogs', 'chickenFlame', 'ateFat', 'donutEx', 'outdo
 function addTwitterThreadContent() {
   var threadIds = listOfthreadIds[y];
   var threadName = listOfthreadNames[y];
+  // var modalTitle = document.getElementById(threadName + 'ModalContent').value;
   for (var i = 0; i < threadIds.length; i++) {
     twttr.widgets.createTweet(
       threadIds[i],
