@@ -82,7 +82,7 @@ blockquote {
   /* grid-template-columns: repeat(auto-fit, 520px);
   grid-auto-rows: repeat(auto-fill, minmax(300px, auto)); */
   grid-template-columns: repeat(auto-fit, 520px);
-  grid-auto-rows: 300px;
+  /* grid-auto-rows: 300px; */
   font-size: 20px;
   grid-gap: 10px;
   margin-bottom: 20px;
@@ -93,18 +93,18 @@ blockquote {
 
 .tweetBlock {
   box-shadow: 3px 3px 20px rgba(0,0,0,.1);
-  height: 275px;
+  height: 280px;
   width: 500px;
   position: relative;
-  padding: 10px;
+  padding: 5px 10px 10px 10px;
   z-index: 0;
 }
 
 .largeBlock {
-  height: 585px;
+  height: 590px;
 }
 .extraLargeBlock {
-  height: 895px;
+  height: 900px;
 }
 
 .largeTweet {
@@ -120,6 +120,8 @@ blockquote {
   position: absolute;
   z-index: 1;
   background-color: rgba(0,0,0,.0);
+  transform: scale(1);
+  transition: all .2s ease-in-out;
 }
 
 .largeButton {
@@ -131,11 +133,15 @@ blockquote {
 
 .tweetButton:hover {
   transform: scale(1.01);
-  transition: all .1s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 .tweetButton:hover + .tweetBlock {
   transform: scale(1.01);
-  transition: all .1s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+.tweetButton + .tweetBlock {
+  transform: scale(1);
+  transition: all .2s ease-in-out;
 }
 
 /* The Modal (background) */
